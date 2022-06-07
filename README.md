@@ -1,5 +1,6 @@
 # web-chrome: Chrome with NoVNC
 
+## Installations:
 ```
 docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome
 ```
@@ -16,4 +17,5 @@ docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanp
 |    APP_NAME    |                Name of the app (Heroku specific)               |
 |    NO_SLEEP    | Prevent app from sleeping (Heroku specific, default: disabled) |
 
+## Usage:
 Open a browser and navigate to the serverip:8088
