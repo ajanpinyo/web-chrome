@@ -12,6 +12,6 @@ docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanp
 |:--------------:|:--------------------------------------------------------------:|
 |    VNC_PASSWORD|               VNC Password (Default: samplepass)               |
 |    VNC_TITLE   |              VNC Session Title (Default: Chrome)               |
-| VNC_RESOLUTION |               VNC Resolution (Default: 1920x1080               |
+| VNC_RESOLUTION |               VNC Resolution (Default: 1920x1080              |
 |    APP_NAME    |                Name of the app (Heroku specific)               |
 |    NO_SLEEP    | Prevent app from sleeping (Heroku specific, default: disabled) |
