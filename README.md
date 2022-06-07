@@ -1,7 +1,7 @@
 # web-chrome: Chrome with NoVNC
 
 ```
-docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome:latest
+docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome
 ```
 
 <p><b><h3>[ ! ] This project runs directly as a root user with non-sandboxed chrome!<br>
