@@ -2,6 +2,6 @@
 docker build -t ajanpinyo/web-chrome .
 docker run -d --name web-chrome --restart always -p 8088:8088 ajanpinyo/web-chrome:latest
 
-[or]
+[or: 5900 VNC port]
 
 docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome:latest
