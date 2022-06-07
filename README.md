@@ -4,7 +4,8 @@
 docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome:latest
 ```
 
-<p><b><h3>[ ! ] This project runs directly as a root user with non-sandboxed chromium! <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do not use in production environments.</h3></b></p>
+<p><b><h3>[ ! ] This project runs directly as a root user with non-sandboxed chrome!<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do not use in production environments.</h3></b></p>
 
 ## Environment variables: 
 |      PORT      |                NoVNC HTTPS Port (Default: 8088)                |
