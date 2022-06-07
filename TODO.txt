@@ -1,0 +1,9 @@
+Docker hub
+	- https://hub.docker.com/r/oldiy/chrome-novnc
+	- nkpro2000sr/Chrome-VNC
+
+[webvnc]
+docker build -t ajanpinyo/web-chrome .
+docker run -d --name web-chrome --restart always -p 8088:8088 ajanpinyo/web-chrome:latest
+
+docker run -d --name web-chrome --restart always -p 8088:8088 -p 5900:5900 ajanpinyo/web-chrome:latest
