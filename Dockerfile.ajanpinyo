@@ -1,2 +1,2 @@
-FROM ajanpinyo/ubuntu-chrome-novnc:latest
+FROM ajanpinyo/web-chrome:latest
 
