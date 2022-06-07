@@ -7,7 +7,7 @@ LABEL Maintainer "Pinyo Pianpiroaj <ajanpinyo@gmail.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 #VNC Server Password
-ENV	VNC_PASSWORD="obm@ssw0rd" \
+ENV	VNC_PASSWORD="P@ssw0rd" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Chrome" \
 #VNC Resolution(720p is preferable)
