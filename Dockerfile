@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-#LABEL AboutImage "Ubuntu22.04_Chrome_noVNC"
+#LABEL AboutImage "Ubuntu22.04 Chrome noVNC"
 
 LABEL Maintainer "Pinyo Pianpiroaj <ajanpinyo@gmail.com>"
 
@@ -36,7 +36,7 @@ SHELL ["/bin/bash", "-c"]
 
 RUN	apt-get update && \
 #Update ubuntu 
-	apt-get install -y tzdata ca-certificates supervisor curl wget locales-all xfonts-thai \
+	apt-get install -y tzdata ca-certificates supervisor curl wget xfonts-thai \
 	python3 python3-pip sed unzip xvfb x11vnc websockify openbox libnss3 libgbm-dev libasound2 && \
 #Chromium
 	wget https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/1003039/chrome-linux.zip -P /tmp && \
